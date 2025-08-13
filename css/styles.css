@@ -83,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(255, 229, 0, 0.3);
+  background: white;
   padding: 0.5rem 1rem;
   border-radius: 25px;
 }
@@ -111,7 +111,7 @@ body {
 
 /* CTA Buttons */
 .btn-cta-header {
-  background: var(--primary-yellow);
+  background: white;
   color: var(--primary-black);
   border: 1px solid var(--primary-yellow);
   padding: 0.75rem 1.5rem;
@@ -133,12 +133,8 @@ body {
 }
 
 .btn-cta-hero {
-  background: linear-gradient(
-    135deg,
-    var(--primary-yellow),
-    var(--primary-yellow)
-  );
-  color: #ffffff;
+  background: black;
+  color: var(--primary-yellow);
   border: none;
   padding: 1rem 2rem;
   border-radius: 12px;
@@ -426,7 +422,7 @@ body {
 
 .hero-description.location i,
 .hero-description.date i {
-  color: var(--primary-yellow);
+  color: black;
   font-size: 1.2rem;
   width: 20px;
   text-align: center;
@@ -1325,7 +1321,7 @@ body {
 .speaker-name {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #fff;
+  color: black;
   margin-bottom: 0.3rem;
 }
 .speaker-title {
@@ -1406,7 +1402,7 @@ body {
 #modal-name {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff;
+  color: black;
   margin-bottom: 0.3rem;
 }
 #modal-title {
