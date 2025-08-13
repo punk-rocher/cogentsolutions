@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundmenta - Creative Agency</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" alt="Fundmenta Logo">
+                </a>
+
+                <!-- Navigation Links -->
+                <div class="navbar-nav ms-auto me-4">
+                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Culture</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Contact Us</a>
+                </div>
+
+                <!-- Language Selector -->
+                <div class="language-selector me-3">
+                    <span class="lang-option" data-lang="en" onclick="switchLanguage('en')">EN</span>
+                    <span class="lang-option" data-lang="bg" onclick="switchLanguage('bg')">BG</span>
+                </div>
+
+                <!-- CTA Button -->
+                <button class="btn btn-cta-header">
+                    Register Now <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-shape"></div>
+            <div class="floating-element floating-1"></div>
+            <div class="floating-element floating-2"></div>
+            <div class="floating-element floating-3"></div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 text-center">
+                    <div class="hero-content pt-5 mt-5">
+                        <h1 class="hero-headline mb-4 mx-auto" data-aos="fade-up" data-aos-delay="200" style="max-width: 920px;">SAUDI ARABIA'S FINANCIAL CRIME COMPLIANCE ROUNDTABLE</h1>
+                        <p class="hero-description location mb-2" data-aos="fade-up" data-aos-delay="400">
+                            <i class="fas fa-map-marker-alt"></i>
+                            HYATT REGENCY RIYADH OLAYA, RIYADH, KSA                        
+                        </p>
+                        <p class="hero-description date mb-5" data-aos="fade-up" data-aos-delay="600">
+                            <i class="fas fa-calendar-alt"></i>
+                            19 th February, 2025
+                        </p>
+                        <button class="btn btn-cta-hero" data-aos="fade-up" data-aos-delay="800">
+                            Register Now <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Overview Section -->
+    <section class="event-overview py-5">
+        <div class="container">
+            <!-- Left Column - Image/Visual -->
+            <div class="aos-animate aos-init align-items-center justify-content-center row" data-aos="fade-right"
+                data-aos-delay="200">
+                <div class="col-lg-5 ">
+                    <div class="overview-visual">
+                        <img src="img/right2.webp" class="parallax-img" alt="Event Visual">
+                    </div>
+                    
+
+                </div>
+
+                <!-- Right Column - Text Content -->
+                <div class="aos-animate aos-init col-lg-7" data-aos="fade-left" data-aos-delay="400">
+                    <div class="overview-content">
+                        <h2 class="overview-title mb-4">Event Overview</h2>
+                        <div class="overview-text">
+                            <p class="mb-4">
+                                As a global leader in financial innovation and compliance, the Kingdom of Saudi Arabia continues
+                                to set benchmarks in Anti-Money Laundering (AML) efficiency and effectiveness. Despite these
+                                advancements and spending $1.10 billion as cost of compliance, the country still lost
+                                <strong>5.74%</strong> of its gross domestic product (GDP) to money laundering in 2023.
+                            </p>
+                            <p>
+                                Vision 2030 and the Saudi Central Bank's efforts embrace an innovation-centric, risk-based
+                                approach to anti-money laundering. This exclusive roundtable brings together compliance leaders
+                                and industry experts to discuss how financial institutions can embrace next-generation AML
+                                technologies with a compliance-first approach. Delve into cutting-edge strategies, regulatory
+                                updates, and technology trends shaping the future of financial crime compliance in Saudi Arabia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5">
+      <div class="container">
+        <h2 class="overview-title mb-3">Key Benefits of Attending</h2>
+        <div class="features-grid">
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="0">
+            <div class="feature-icon"><i class="fas fa-balance-scale"></i></div>
+            <h4 class="feature-title">Regulatory Innovations</h4>
+            <p class="feature-desc">Discuss the latest regulatory changes and technology advancements transforming compliance into a business advantage.</p>
+          </div>
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h4 class="feature-title">Trends from the Napier AI/AML Index</h4>
+            <p class="feature-desc">Deep dive into the Napier AI / AML Index methodology, local trends influencing AI adoption, and opportunities for Saudi institutions.</p>
+          </div>
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon"><i class="fas fa-flag-checkered"></i></div>
+            <h4 class="feature-title">Vision 2030 Readiness</h4>
+            <p class="feature-desc">With just 5 years to go, uncover how financial institutions can modernise AML systems to align with the nation’s Vision 2030 goals.</p>
+          </div>
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
+            <h4 class="feature-title">Real-world Case Studies</h4>
+            <p class="feature-desc">Hear from industry experts on how global financial institutions use multi-configuration, sandbox environments, and alternative scoring for dynamic risk assessments.</p>
+          </div>
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4 class="feature-title">Future-Proofing Your AML Strategy</h4>
+            <p class="feature-desc">Learn how to prepare your organisation for the future of AML – perpetual client risk assessment. Use dynamic segmentation to minimise false positives and achieve the highest level of compliance efficiency.</p>
+          </div>
+          <div class="feature-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+            <h4 class="feature-title">Reducing Compliance Costs</h4>
+            <p class="feature-desc">Discover how implementing AI into your AML systems can help save up to $0.36 billion in compliance costs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers-section py-5">
+      <div class="speakers-section-background">
+        <div class="speakers-section-shape"></div>
+        <div class="speakers-floating-element speakers-floating-1"></div>
+        <div class="speakers-floating-element speakers-floating-2"></div>
+        <div class="speakers-floating-element speakers-floating-3"></div>
+      </div>
+      <div class="container">
+        <h2 class="overview-title mb-3">Our Speakers</h2>
+        <div class="speakers-grid">
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="0" onclick="showSpeakerModal(0)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers//sp1.jpg" alt="Faisal Alghefari" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Faisal Alghefari</h4>
+              <p class="speaker-title">Chief Compliance Officer — Banking Sector, KSA</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="100" onclick="showSpeakerModal(1)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers//sp2.jpg" alt="Gordon Berrie" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Gordon Berrie</h4>
+              <p class="speaker-title">MENA Regional Head</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="200" onclick="showSpeakerModal(2)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp3.jpg" alt="Nour Jamil" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Nour Jamil</h4>
+              <p class="speaker-title">Senior Solutions Consultant</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="300" onclick="showSpeakerModal(3)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp4.jpg" alt="Abdulrahman Aladel" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Abdulrahman Aladel</h4>
+              <p class="speaker-title">SVP - Head of Anti-Financial Crimes Compliance — Riyad Bank</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="400" onclick="showSpeakerModal(4)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp6.jpg" alt="Mishal Al Ismail" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Mishal Al Ismail</h4>
+              <p class="speaker-title">Head of Compliance & AML — Albilad Capital</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="500" onclick="showSpeakerModal(5)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp7.jpg" alt="Abdulaziz Alanezi" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Abdulaziz Alanezi</h4>
+              <p class="speaker-title">Head of Compliance & AML — Leading International Bank in KSA</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="600" onclick="showSpeakerModal(6)">
+            <img src="https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets/img/speakers/sp8.jpg" alt="Manar Saif Al-Assaf" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Manar Saif Al-Assaf</h4>
+              <p class="speaker-title">Head of Compliance — Emirates NBD</p>
+            </div>
+          </div>
+          <div class="speaker-card" data-aos="fade-up" data-aos-delay="700" onclick="showSpeakerModal(7)">
+            <img src="https://randomuser.me/api/portraits/men/38.jpg" alt="Khushnood Khan" class="speaker-img">
+            <div class="speaker-info">
+              <h4 class="speaker-name">Khushnood Khan</h4>
+              <p class="speaker-title">Financial Crime Leader — Deloitte Middle East</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speaker Modal -->
+    <div id="speaker-modal" class="speaker-modal">
+      <div class="speaker-modal-content">
+        <span class="speaker-modal-close" onclick="closeSpeakerModal()">&times;</span>
+        <img id="modal-img" class="modal-img" src="" alt="">
+        <h4 id="modal-name"></h4>
+        <p id="modal-title"></p>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+
+        // Simple language switcher - just changes button states
+        function switchLanguage(lang) {
+            const langOptions = document.querySelectorAll('.lang-option');
+            langOptions.forEach(option => {
+                if (option.dataset.lang === lang) {
+                    option.classList.add('lang-active');
+                    option.classList.remove('lang-inactive');
+                } else {
+                    option.classList.add('lang-inactive');
+                    option.classList.remove('lang-active');
+                }
+            });
+        }
+
+        // Initialize language UI on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('en');
+        });
+    </script>
+    <script>
+window.addEventListener('scroll', function() {
+  const img = document.querySelector('.parallax-img');
+  if (!img) return;
+  const rect = img.getBoundingClientRect();
+  const windowHeight = window.innerHeight;
+  if (rect.top < windowHeight && rect.bottom > 0) {
+    const offset = (rect.top - windowHeight/2) * 0.15;
+    img.style.transform = `translateY(${offset}px) scale(1.03)`;
+  } else {
+    img.style.transform = 'translateY(0) scale(1)';
+  }
+});
+</script>
+<div id="mouse-trailer"></div>
+<script>
+// Mouse trailer (follower) effect
+const trailer = document.createElement('div');
+trailer.id = 'mouse-trailer';
+document.body.appendChild(trailer);
+
+const trailerStyle = trailer.style;
+trailerStyle.position = 'fixed';
+trailerStyle.top = '0';
+trailerStyle.left = '0';
+trailerStyle.width = '18px';
+trailerStyle.height = '18px';
+trailerStyle.background = '#3b82f6'; // blue
+trailerStyle.borderRadius = '50%';
+trailerStyle.pointerEvents = 'none';
+trailerStyle.zIndex = '9999';
+trailerStyle.transform = 'translate(-50%, -50%)';
+trailerStyle.transition = 'background 0.2s';
+trailerStyle.boxShadow = '0 2px 8px rgba(59,130,246,0.15)';
+
+let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
+let trailerX = mouseX, trailerY = mouseY;
+
+window.addEventListener('mousemove', e => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+function animateTrailer() {
+  // Lerp for smooth trailing
+  trailerX += (mouseX - trailerX) * 0.18;
+  trailerY += (mouseY - trailerY) * 0.18;
+  trailerStyle.left = trailerX + 'px';
+  trailerStyle.top = trailerY + 'px';
+  requestAnimationFrame(animateTrailer);
+}
+animateTrailer();
+</script>
+<script>
+const speakers = [
+  {
+    name: "Faisal Alghefari",
+    title: "Chief Compliance Officer — Banking Sector, KSA",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers//sp1.jpg",
+    desc: "Faisal AlGhefari is a distinguished Chief Compliance Officer with more than 16 years of experience in Compliance, AML, Enforcement, and Internal Controls at Saudi and international Banks. He excels in Regulatory Frameworks, Compliance, and Governance, and has played a key role in various digital transformation projects within the compliance domain. His certifications in Compliance, Governance, and AML underscore his extensive expertise."
+  },
+  {
+    name: "Gordon Berrie",
+    title: "MENA Regional Head",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers//sp2.jpg",
+    desc: "Gordon Berrie is Napier AI's Head of Middle East Region. Previously Head of Professional Services & Customer Success MENA at Fenergo and Director at PwC Middle East, Gordon has 20 years of experience leading agile teams in various industries, and specialises in Client Lifecycle Management (Onboarding, KYC, AML, Offboarding), software development and delivery, and program and project management in large scope complex initiatives."
+  },
+  {
+    name: "Nour Jamil",
+    title: "Senior Solutions Consultant",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp3.jpg",
+    desc: "Nour Jamil is a Senior Client Solutions Consultant at Napier, managing the MENA region. With extensive experience in AML, financial crime compliance, and regulatory technology, he specialises in helping financial institutions enhance their compliance frameworks through AI-driven solutions. Nour has worked closely with banks, fintechs, and regulators to implement innovative risk-based approaches, optimise transaction monitoring, and streamline client screening processes."
+  },
+  {
+    name: "Abdulrahman Aladel",
+    title: "SVP - Head of Anti-Financial Crimes Compliance — Riyad Bank",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp4.jpg",
+    desc: "A seasoned Financial Crime Compliance Professional with over 18 years of experience in the banking and financial services industry. Currently serves as Head of Anti-Financial Crime Compliance at Riyad Bank. Previously held the position of Chief Compliance Officer at American Express for over 9 years. Extensive experience as CCO, MLRO, and in other senior Compliance and AML roles at multinational and local institutions and banks. Holds a bachelor’s degree in business administration and has completed post-graduate studies at INSEAD."
+  },
+  {
+    name: "Mishal Al Ismail",
+    title: "Head of Compliance & AML — Albilad Capital",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp6.jpg",
+    desc: "Mishal Al Ismail currently holds the esteemed position of Chairman of the Governance Capital Market Institution Committee while serving as the Head of Compliance & AML at Albilad Capital. With over 20 years of experience, he has demonstrated exemplary leadership in both Finance and Administration. He holds a bachelor’s degree in Business Administration (Finance Management) from King Saud University, a postgraduate diploma in Marketing Management (equivalent to a master’s) from the Institute of Public Administration, and has pursued advanced studies at Henley Business School, University of Reading, UK. His credentials include professional diplomas in regulation, compliance, Anti-Money Laundering, and Corporate Governance, along with all requisite CMA professional certificates."
+  },
+  {
+    name: "Abdulaziz Alanezi",
+    title: "Head of Compliance & AML — Leading International Bank in KSA",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets//img//speakers/sp7.jpg",
+    desc: "Abdulaziz AlAnezi is a seasoned compliance and anti-money laundering (AML) leader with over 12 years of experience in the banking and financial services sector in both local and international banks. Currently serving as the Head of Compliance and AML Department in the banking sector, he has spearheaded the development and implementation of comprehensive compliance programs, ensuring adherence to regulatory requirements and fostering a culture of ethical behavior across the organization. He holds a bachelor’s degree in Economics from Leeds Becket University and numerous professional certifications in compliance, risk management, and financial analysis."
+  },
+  {
+    name: "Manar Saif Al-Assaf",
+    title: "Head of Compliance — Emirates NBD",
+    img: "https://cogentsolutions.ae/events/upcoming-physical-events/saudi_arabia_financial_crime_compliance/assets/img/speakers/sp8.jpg",
+    desc: "Manar holds a bachelor’s degree in accounting with a professional license in compliance and AML from CMA, ACAMS, and certificates in Governance GRCP & GCRCA, along with leadership programs from Harvard, INSEAD, and IESCE. With around 19 years of experience in Internal Audit, Compliance, and AML, she is a role model for women leaders in GRC. She was nominated as one of the Women Leaders for the Kingdom Vision 2030 and served as a G20/B20 Integrity and Compliance Task Force Member in 2020. In 2023, she was appointed by the Central Bank as Chairman of the Anti-Financial Crime and Money Laundering Committee."
+  },
+  {
+    name: "Khushnood Khan",
+    title: "Financial Crime Leader — Deloitte Middle East",
+    img: "https://randomuser.me/api/portraits/men/38.jpg",
+    desc: "Khush is the Financial Crime Leader for Deloitte Middle East and focuses on supporting financial institutions to be regulatory compliant. With over 20 years of experience working extensively with banks and regulators across the GCC and Europe, his areas of expertise include FCC Strategy, large-scale transformation programs, and regulatory reviews. Khush developed and leads Deloitte’s Fincrime Technology Lab."
+  }
+];
+
+function showSpeakerModal(idx) {
+  const s = speakers[idx];
+  document.getElementById('modal-img').src = s.img;
+  document.getElementById('modal-img').alt = s.name;
+  document.getElementById('modal-name').textContent = s.name;
+  document.getElementById('modal-title').textContent = s.title;
+  document.getElementById('modal-desc').textContent = s.desc;
+  document.getElementById('speaker-modal').style.display = 'flex';
+}
+function closeSpeakerModal() {
+  document.getElementById('speaker-modal').style.display = 'none';
+}
+document.getElementById('speaker-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeSpeakerModal();
+});
+</script>
+</body>
+</html>
