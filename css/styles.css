@@ -1981,7 +1981,7 @@ body {
 }
 
 .timeline__item .content em {
-  color: var(--primary-yellow);
+  color: #000000;
   font-style: normal;
   font-weight: 500;
 }

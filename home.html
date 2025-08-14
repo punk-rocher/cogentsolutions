@@ -150,6 +150,7 @@
                 class="btn btn-cta-hero"
                 data-aos="fade-up"
                 data-aos-delay="800"
+                id="scrollToRegister"
               >
                 Register Now <i class="fas fa-arrow-right"></i>
               </button>
@@ -747,6 +748,7 @@
       </button>
     </footer>
     <!-- footer -->
+
     <!-- Speaker Modal -->
     <div id="speaker-modal" class="speaker-modal">
       <div class="speaker-modal-content">
@@ -808,6 +810,13 @@
         } else {
           img.style.transform = "translateY(0) scale(1)";
         }
+      });
+
+      const button = document.getElementById("scrollToRegister");
+      const targetSection = document.getElementById("register");
+
+      button.addEventListener("click", () => {
+        targetSection.scrollIntoView({ behavior: "smooth" });
       });
     </script>
 
