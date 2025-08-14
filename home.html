@@ -27,13 +27,14 @@
     <header
       class="bg"
       style="
-        /* From https: //css.glass */
-        background: rgba(255, 255, 255, 0.36);
+        background: rgba(255, 255, 255, 0.06);
         /* border-radius: 16px; */
-        /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-        backdrop-filter: blur(0px);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(0px);
         /* border: 1px solid rgba(255, 255, 255, 0.47); */
+        z-index: 99999999999999;
+        height: 85px;
       "
     >
       <nav class="navbar navbar-expand-lg">
@@ -58,7 +59,7 @@
               >
             </div>
             <div>
-              <button class="btn btn-cta-header">
+              <button class="btn btn-cta-header" id="scrollToRegisterHeader">
                 Register Now <i class="fas fa-arrow-right"></i>
               </button>
             </div>
@@ -812,10 +813,10 @@
         }
       });
 
-      const button = document.getElementById("scrollToRegister");
+      const headerButton = document.getElementById("scrollToRegisterHeader");
       const targetSection = document.getElementById("register");
 
-      button.addEventListener("click", () => {
+      headerButton.addEventListener("click", () => {
         targetSection.scrollIntoView({ behavior: "smooth" });
       });
     </script>
