@@ -416,17 +416,20 @@
     </section>
     <!-- // Speakers Section -->
 
-    <!-- Table Section -->
+    <!-- ajenda -->
     <section class="py-5 table-section">
       <div class="container">
         <h2 class="table-section-title mb-3 text-center">Agenda</h2>
+
+        <div class="timeline-floating-1"></div>
+        <div class="timeline-floating-2"></div>
+        <div class="timeline-floating-3"></div>
 
         <ul class="timeline">
           <li class="timeline__line"></li>
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">09:00 - 10:00</time>
               <div class="title">Registration & Breakfast</div>
             </div>
@@ -434,7 +437,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">10:00 - 10:05</time>
               <div class="title">
                 <strong>Welcome Note and Introduction</strong>
@@ -447,7 +449,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">10:05 - 10:30</time>
               <div class="title">
                 <strong>Presentation:</strong> Leveraging RegTech & AI for
@@ -464,7 +465,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">10:30 - 11:00</time>
               <div class="title">
                 <strong>Fireside Chat:</strong> The Rise of AI in Compliance
@@ -485,7 +485,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">11:00 - 11:15</time>
               <div class="title">Break</div>
             </div>
@@ -493,7 +492,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">11:15 - 12:00</time>
               <div class="title">
                 <strong>Panel Discussion:</strong> Future-Proofing AML in Saudi
@@ -527,7 +525,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">12:00 - 12:10</time>
               <div class="title">Closing Remarks</div>
             </div>
@@ -535,7 +532,6 @@
 
           <li class="timeline__item">
             <div class="info">
-              <div class="dot"></div>
               <time class="time">12:10 - 14:00</time>
               <div class="title">Prayer break, Networking Lunch</div>
             </div>
@@ -543,14 +539,212 @@
         </ul>
       </div>
     </section>
-    <!--// Table Section -->
+    <!-- ajenda -->
 
-    <!-- Contact Us -->
-    <!--// Contact Us -->
+    <!-- form -->
+    <section class="registration-section py-5" id="register">
+      <div class="registration-section-background">
+        <div class="registration-section-shape"></div>
+        <div
+          class="registration-floating-element registration-floating-1"
+        ></div>
+        <div
+          class="registration-floating-element registration-floating-2"
+        ></div>
+        <div
+          class="registration-floating-element registration-floating-3"
+        ></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="registration-content text-center">
+              <h2 class="registration-title mb-4">Register for the Event</h2>
+              <p class="registration-subtitle mb-5">
+                Join industry leaders and experts for this exclusive roundtable
+                discussion on financial crime compliance in Saudi Arabia.
+              </p>
 
-    <!-- Footer -->
-    <!--// Footer-->
+              <form class="registration-form" id="registrationForm">
+                <div class="form-grid">
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                      />
+                      <label for="firstName">First Name</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
 
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                      />
+                      <label for="lastName">Last Name</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <input type="text" id="company" name="company" required />
+                      <label for="company">Company</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <input
+                        type="email"
+                        id="workEmail"
+                        name="workEmail"
+                        required
+                      />
+                      <label for="workEmail">Work Email</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <select id="industry" name="industry" required>
+                        <option value="" disabled selected></option>
+                        <option value="banking">Banking</option>
+
+                        <option value="technology">Technology</option>
+                        <option value="other">Other</option>
+                      </select>
+                      <label for="industry">Industry</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="input-wrapper">
+                      <input
+                        type="tel"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        required
+                      />
+                      <label for="phoneNumber">Phone Number</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <div class="input-wrapper">
+                      <select id="country" name="country" required>
+                        <option value="" disabled selected></option>
+                        <option value="saudi-arabia">Saudi Arabia</option>
+                        <option value="uae">United Arab Emirates</option>
+                        <option value="kuwait">Kuwait</option>
+                        <option value="qatar">Qatar</option>
+                        <option value="bahrain">Bahrain</option>
+                      </select>
+                      <label for="country">Country</label>
+                      <div class="input-border"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-register">
+                    <span class="btn-text">Complete Registration</span>
+                    <span class="btn-icon"
+                      ><i class="fas fa-arrow-right"></i
+                    ></span>
+                    <div class="btn-loading">
+                      <div class="spinner"></div>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form -->
+
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-background">
+        <div class="footer-shape"></div>
+        <div class="footer-floating-element footer-floating-1"></div>
+        <div class="footer-floating-element footer-floating-2"></div>
+        <div class="footer-floating-element footer-floating-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-main">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4">
+                <div class="footer-brand">
+                  <img
+                    src="img/logo.png"
+                    alt="Fundmenta Logo"
+                    class="footer-logo"
+                  />
+                  <p class="footer-description">
+                    Leading the future of financial crime compliance through
+                    innovative technology solutions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-4">
+                <div class="footer-contact">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@cogentsolutions.com</span>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+94 11 12894840</span>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Colombo, Srilanka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <p class="copyright-text">
+                  © 2025 cogentsolutions. All rights reserved.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <div class="footer-links">
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                  <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </footer>
+    <!-- footer -->
     <!-- Speaker Modal -->
     <div id="speaker-modal" class="speaker-modal">
       <div class="speaker-modal-content">
