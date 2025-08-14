@@ -406,8 +406,9 @@
       </div>
     </section>
 
+    <!-- Speaker Modal -->
     <div id="speaker-modal" class="speaker-modal">
-      <div class="speaker-modal-content" id="modal-content">
+      <div class="speaker-modal-content">
         <span class="speaker-modal-close" onclick="closeSpeakerModal()"
           >&times;</span
         >
@@ -415,9 +416,6 @@
         <h4 id="modal-name"></h4>
         <p id="modal-title"></p>
         <p id="modal-desc"></p>
-
-        <!-- Custom scrollbar -->
-        <div id="custom-scrollbar"></div>
       </div>
     </div>
 
@@ -578,40 +576,6 @@
         .addEventListener("click", function (e) {
           if (e.target === this) closeSpeakerModal();
         });
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const modalContent = document.getElementById("modal-content");
-        const customScrollbar = document.getElementById("custom-scrollbar");
-
-        function updateScrollbar() {
-          const contentHeight = modalContent.scrollHeight;
-          const visibleHeight = modalContent.clientHeight;
-          const scrollTop = modalContent.scrollTop;
-
-          // Scrollbar height ratio
-          const scrollbarHeight = Math.max(
-            (visibleHeight / contentHeight) * visibleHeight,
-            20 // minimum height
-          );
-
-          // Scrollbar position
-          const scrollbarTop =
-            (scrollTop / (contentHeight - visibleHeight)) *
-            (visibleHeight - scrollbarHeight);
-
-          customScrollbar.style.height = `${scrollbarHeight}px`;
-          customScrollbar.style.top = `${scrollbarTop}px`;
-        }
-
-        // Listen for scroll
-        modalContent.addEventListener("scroll", updateScrollbar);
-        window.addEventListener("resize", updateScrollbar);
-
-        // Initial update
-        updateScrollbar();
-      });
     </script>
   </body>
 </html>
