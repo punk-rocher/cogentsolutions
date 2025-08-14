@@ -41,6 +41,43 @@ body {
   border-bottom: 1px solid var(--primary-yellow);
 }
 
+/* Modal container styling */
+.speaker-modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden; /* prevent outer scroll */
+}
+
+/* Modal content */
+.speaker-modal-content {
+  background: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+
+  /* Scrolling inside */
+  max-height: 80vh; /* 80% of viewport height */
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+/* Optional for a nicer scrollbar */
+.speaker-modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.speaker-modal-content::-webkit-scrollbar-thumb {
+  background-color: #ffe500; /* thumb color */
+  border-radius: 4px;
+} /* Modal content */
+
 .navbar {
   padding: 1rem 0;
 }
@@ -709,7 +746,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, ##fffbe6 0%, ##fffbe6 50%, #fffbe6 100%);
+  background: linear-gradient(135deg, #fffbe6 0%, #fffbe6 50%, #fffbe6 100%);
   display: flex;
   align-items: center;
   justify-content: center;
