@@ -76,7 +76,9 @@ body {
 .speaker-modal-content::-webkit-scrollbar-thumb {
   background-color: #ffe500; /* thumb color */
   border-radius: 4px;
-} /* Modal content */
+}
+
+/* Modal content */
 
 .navbar {
   padding: 1rem 0;
